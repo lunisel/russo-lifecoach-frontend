@@ -1,0 +1,131 @@
+.jumbotron img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.jumbotron .container {
+  width: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 5rem;
+}
+
+.text-container {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-inline: 2rem;
+}
+
+.text-container p {
+  color: var(--gray);
+}
+
+.text-container .title {
+  font-weight: 800;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.text-container .text1 {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+.text-container .text2 {
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--light-blue);
+  line-height: 1.3rem;
+}
+
+.img-container {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.img-container img {
+  width: 70%;
+}
+
+@media screen and (min-width: 450px) {
+  .jumbotron .container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  .jumbotron .text-container {
+    height: 80%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .jumbotron .container {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 5rem;
+  }
+  .text-container {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-inline: 2rem;
+  }
+  .img-container img {
+    width: 100%;
+  }
+  .big-container .jumbotron img.waves {
+    height: 7rem;
+    object-position: bottom;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .jumbotron .container {
+    width: 75%;
+    margin: auto;
+    grid-template-columns: 55% 35%;
+    gap: 10%;
+    margin-bottom: 6rem;
+  }
+  .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .img-container img {
+    position: relative;
+    top: -1rem;
+  }
+
+  .jumbotron .text-container {
+    margin-inline: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .jumbotron .text-container .title {
+    font-size: 1.8rem;
+  }
+  .jumbotron .text-container .text1 {
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+  }
+  .jumbotron .text-container .text2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .big-container .jumbotron img.waves {
+    height: 12rem;
+    object-position: bottom;
+  }
+}

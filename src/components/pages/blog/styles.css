@@ -1,0 +1,52 @@
+/* ---------------------------------- ALL BLOG POSTS ------------------------------------ */
+
+.big-container {
+  width: 100%;
+}
+
+.waves {
+  width: 100%;
+  height: 8rem;
+}
+
+h1.blog-title {
+  text-align: center;
+  font-size: 5rem;
+  color: var(--gray);
+}
+
+.all-blogs-container {
+  margin-block: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* ---------------------------------- SINGLE BLOG POST ------------------------------------ */
+
+.container.single-blog {
+  margin-top: 2rem;
+}
+
+.single-blog-title {
+  color: var(--light-blue);
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.single-blog-description {
+  color: var(--light-blue);
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 5rem;
+  font-weight: 400;
+}
+
+.single-blog-body {
+  color: var(--gray);
+  font-size: 1.1rem;
+  margin-bottom: 5rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "headline": "My first blog post",
+    "image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/17638/production/_124800859_gettyimages-817514614.jpg",
+    "dateCreated": "30-06-2022",
+    "dateModified": "30-06-2022",
+    "description": "This article talks about dogs and how cute they are.",
+    "articleBody": "L’ultimo chiuda la porta. Oggi ho chiuso un ottimo contratto.\n Attendiamo la chiusura della borsa, oppure quella dei seggi, per scoprire chi amministrerà la nostra città. Alcuni cercano come si effettui la chiusura di un profilo Instagram, di un altro account o della partita Iva e sono molti a interrogarsi su come chiudere una relazione tossica. Ognuna di queste azioni o di questi intenti è di per sé la chiusura del cerchio. Ho passato ben 29 anni della mia vita nella “Salute Mentale”. Mi sono licenziato da Responsabile della Struttura, la stessa di cui ero stato progettista e all’interno della quale mi occupavo anche di certificare la qualità e l’impatto del lavoro svolto. Sono stati ventinove anni importanti. Un cerchio dalla circonferenza molto lunga e ben marcata. Il mio lavoro quotidiano con i pazienti mi ha regalato davvero tantissimo. Ogni giorno mi sono confrontato con la sofferenza mentale, incontrando talvolta anche la mia. Ed è stata la tappa più arricchente di tutta la mia vita. Cercando di insegnare agli altri a superare i propri problemi, ho risolto i miei. Ho imparato cosa significa il dolore più forte di tutti, quello psichico. Perché la mente può far diventare reale tutto. Se qualcosa, qualsiasi cosa, non esiste nella realtà, ma è vivo nella tua mente, allora per te è reale. E scrivere queste frasi, condividerle con te è per me un “rendere grazie”. Perché anche le cose belle finiscono: prima o poi, arriva il momento in cui è necessario chiudere il cerchio. Il capitolo finale. Mi sono licenziato e ho realizzato subito in maniera nitida che non volevo assolutamente scappare da qualcosa, ma salutare un mio periodo. Un rapporto, un “me”, che non esisteva più nell’attualità. Sono grato. Ringrazio ogni istante e tutte le persone con cui ho lavorato o collaborato, perché tutto questo è il mio patrimonio di domani. La desolazione è inevitabile, come l’incertezza. Quando si disegna la chiusura del cerchio, si realizza che stiamo vivendo una fase che potrebbe avere effetti permanenti sul nostro futuro. Bisogna saper guardare il cerchio, nella sua perfezione o imperfezione, e congedarsi."
+  },
+  {
+    "id": 2,
+    "headline": "My second blog post",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1200px-Cat_November_2010-1a.jpg",
+    "dateCreated": "30-06-2022",
+    "dateModified": "30-06-2022",
+    "description": "This article talks about dogs and how cute they are.",
+    "articleBody": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias delectus vel pariatur. Eius accusamus excepturi odit repudiandae at laboriosam maiores iure sint dolore dolorem, placeat, rem exercitationem, earum minus mollitia."
+  }
+]

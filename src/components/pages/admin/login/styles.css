@@ -1,0 +1,17 @@
+.login-title {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: var(--light-blue);
+  margin-bottom: 4rem;
+}
+
+.form-container {
+  width: 40%;
+  margin: auto;
+  padding: 1rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
