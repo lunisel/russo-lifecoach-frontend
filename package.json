@@ -1,5 +1,6 @@
 {
   "name": "russo-lifecoach-frontend",
+  "homepage": "https://www.coaching-on-life.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
