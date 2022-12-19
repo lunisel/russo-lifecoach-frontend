@@ -29,6 +29,7 @@ const Navbar = () => {
   };
 
   const onClick = () => {
+    setNavOpen(false);
     navigate("/contattami");
   };
 
@@ -41,10 +42,23 @@ const Navbar = () => {
         {vw <= 800 ? renderNavBottons() : null}
         {vw <= 800 ? (
           <div className={navOpen ? "links-container small" : "d-none"}>
-            <a href="/">Home</a>
-            <a href="#chi-sono">Chi sono</a>
-            <a href="#percorsi">Piani</a>
-            <a href="/blog">Blog</a>
+            <a href="/" onClick={() => setNavOpen(false)}>
+              Home
+            </a>
+            <a href="#chi-sono" onClick={() => setNavOpen(false)}>
+              Chi sono
+            </a>
+            <a href="#percorsi" onClick={() => setNavOpen(false)}>
+              Piani
+            </a>
+            <p
+              onClick={() => {
+                navigate("/blog");
+                setNavOpen(false);
+              }}
+            >
+              Blog
+            </p>
             <BtnRounded
               text="Contattami"
               color="bg-light-blue"
@@ -56,7 +70,7 @@ const Navbar = () => {
             <a href="/">Home</a>
             <a href="#chi-sono">Chi sono</a>
             <a href="#percorsi">Piani</a>
-            <a href="/blog">Blog</a>
+            <p onClick={() => navigate("/blog")}>Blog</p>
             <BtnRounded
               text="Contattami"
               color="bg-light-blue"

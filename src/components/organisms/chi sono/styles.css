@@ -1,7 +1,7 @@
 .big-container.chi-sono {
   display: grid;
   grid-template-rows: auto auto;
-  margin-inline: 2rem;
+  padding-inline: 2rem;
   gap: 2rem;
   margin-bottom: 5rem;
 }
@@ -28,12 +28,12 @@
 .chi-sono h2.title {
   color: var(--light-blue);
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   line-height: 2.6rem;
 }
 
 .chi-sono p.description {
-  line-height: 1.8rem;
+  line-height: 1.5rem;
 }
 
 @media screen and (min-width: 500px) {

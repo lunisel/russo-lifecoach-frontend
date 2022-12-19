@@ -13,18 +13,25 @@ const ChiSono = ({ vw }) => {
       <div className="text-container">
         <h2 className="title">Chi sono?</h2>
         <p className="description">
-          Luca Russo, Dottore in Scienze del Comportamento e delle Relazioni
-          Sociali, specializzato in Life Design e Motivazione al Cambiamento.
-          Anni fa, dopo la laurea, ho deciso di ripartire da un foglio bianco e
-          disegnare la vita che avrei sempre voluto: dedico la mia quotidianità
-          alla realizzazione dei miei sogni e dedico la mia carriera ad aiutare
-          gli altri a fare lo stesso. Il mio approccio al Life Coaching vuole
-          coniugare i capisaldi della Psicologia Positiva e della Psicologia
-          della Motivazione agli strumenti del coaching, in un’ottica
-          costruttivista centrata interamente sul cliente. “Drive your Life” è
-          il mio mantra, prendi consapevolezza dei tuoi bisogni e delle tue
-          credenze più profonde per tracciare ed autodeterminare la direzione
-          della tua vita!
+          Sono Luca Russo, Consulente e Formatore specializzato nelle strategie
+          di Cambiamento e di Crescita Personale. Dottore in Psicologia
+          Cognitiva Applicata, ho deciso di prendere in mano la mia vita, ho
+          smesso di accontentarmi della mera sopravvivenza e ho deciso di
+          spingere me stesso e le persone attorno a me verso la realizzazione
+          dei propri sogni e delle proprie potenzialità. Da quasi 10 anni
+          accompagno i miei clienti nella loro crescita e nel miglioramento del
+          proprio stato mentale, fisico ed emotivo, aiutandoli a costruire
+          obiettivi significativi per se stessi e a trovare le risorse
+          strategiche e motivazionali che li portino al raggiungimento di tali
+          traguardi. Ho provato sulla mia pelle il potere di una decisione e
+          scoprendo lo stesso Super-Potere nascosto dentro alle tante persone
+          con cui ho avuto l’onore di lavorare mi sono convinto che oggi la
+          qualità della tua vita dipende esclusivamente dal modo in cui sogni e
+          ti impegni per costruire la tua felicità. Il mio obiettivo è di
+          rendere le persone consapevoli di come migliorare la propria vita e il
+          proprio livello di soddisfazione attraverso la gestione degli stati
+          mentali e delle emozioni, la consapevolezza dei propri bisogni e delle
+          proprie credenze e l’organizzazione strategica di tempo ed energie.
         </p>
       </div>
     </div>

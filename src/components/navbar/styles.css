@@ -28,14 +28,17 @@
   width: 50vw;
 }
 
-.links-container a {
+.links-container a,
+.links-container p {
   font-weight: 700;
   font-size: 1.2rem;
   text-decoration: none;
   color: var(--gray);
+  cursor: pointer;
 }
 
-.links-container a:hover {
+.links-container a:hover,
+.links-container p:hover {
   color: var(--light-blue);
 }
 
