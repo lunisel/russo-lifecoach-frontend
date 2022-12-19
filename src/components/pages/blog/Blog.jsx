@@ -10,7 +10,7 @@ const Blog = ({ history }) => {
     <div className="big-container">
       <img src={waves} alt="colored-waves" className="waves" />
       <div className="container">
-        <h1 className="blog-title">Blog</h1>
+        <h1 className="blog-title">Articoli</h1>
         <div className="all-blogs-container">
           {allPosts.map((item) => (
             <BlogCard singlePost={item} history={history} />

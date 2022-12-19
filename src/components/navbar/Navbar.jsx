@@ -56,11 +56,11 @@ const Navbar = () => {
             </a>
             <p
               onClick={() => {
-                navigate("/blog");
+                navigate("/articoli");
                 setNavOpen(false);
               }}
             >
-              Blog
+              Articoli
             </p>
             <BtnRounded
               text="Contattami"
@@ -73,7 +73,7 @@ const Navbar = () => {
             <a href="/">Home</a>
             <a href="#chi-sono">Chi sono</a>
             <a href="#percorsi">Piani</a>
-            <p onClick={() => navigate("/blog")}>Blog</p>
+            <p onClick={() => navigate("/articoli")}>Articoli</p>
             <BtnRounded
               text="Contattami"
               color="bg-light-blue"
