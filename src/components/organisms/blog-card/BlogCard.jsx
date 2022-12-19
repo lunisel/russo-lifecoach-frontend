@@ -15,7 +15,7 @@ const BlogCard = ({ singlePost }) => {
         <span>{singlePost.articleBody}</span>
         <div
           className="blog-card-button"
-          onClick={() => navigate(`/blog/${singlePost.id}`)}
+          onClick={() => navigate(`/articoli/${singlePost.id}`)}
         >
           Scopri di più
         </div>
