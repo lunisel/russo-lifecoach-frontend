@@ -4,6 +4,7 @@
   justify-content: space-between;
   padding-block: 1.5rem;
   align-items: center;
+  z-index: 100;
 }
 
 .logo-container {
@@ -16,16 +17,18 @@
 }
 
 .links-container {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  top: 7.9rem;
+  top: 0;
+  padding-top: 7.9rem;
   right: 0;
   background-color: white;
-  padding-inline: 2.5rem;
-  height: calc(100vh - 8.1rem);
+  padding-inline: 2rem;
+  height: 100vh;
   width: 50vw;
+  z-index: 10;
 }
 
 .links-container a,
@@ -35,6 +38,7 @@
   text-decoration: none;
   color: var(--gray);
   cursor: pointer;
+  text-align: center;
 }
 
 .links-container a:hover,
@@ -47,6 +51,14 @@
   padding: 0.8rem;
   border-radius: 5px;
   cursor: pointer;
+  z-index: 100;
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+}
+
+.nav-button.fixed {
+  position: fixed;
 }
 
 .nav-button svg {
@@ -62,6 +74,7 @@
     top: 0;
     right: 0;
     padding-inline: 0;
+    padding-top: 0;
     height: auto;
     width: auto;
     align-items: center;

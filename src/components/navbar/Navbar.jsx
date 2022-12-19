@@ -22,7 +22,10 @@ const Navbar = () => {
 
   const renderNavBottons = () => {
     return (
-      <div className="nav-button" onClick={() => setNavOpen(!navOpen)}>
+      <div
+        className={navOpen ? "nav-button fixed" : "nav-button"}
+        onClick={() => setNavOpen(!navOpen)}
+      >
         {navOpen ? <FaTimes /> : <FaStream />}
       </div>
     );
